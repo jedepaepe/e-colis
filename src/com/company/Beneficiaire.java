@@ -1,8 +1,9 @@
 package com.company;
 
 public class Beneficiaire extends Personne{
-    private int charge_familiale, numero_national, code_postal;
+    private int charge_familiale, numero_national, code_postal; // camelCase !
     private String rue, ville;
+    // manque Livraison
 
     public Beneficiaire(String nom, String prenom, String telephone, String email_adresse, int charge_familiale, int numero_national, int code_postal, String rue, String ville) {
         super(nom, prenom, telephone, email_adresse);
