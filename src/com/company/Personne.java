@@ -1,6 +1,6 @@
 package com.company;
 public abstract class Personne {
-    private String nom, prenom, telephone, email_adresse;
+    private String nom, prenom, telephone, email_adresse;   // => emailAdrresse (camelCase) ou email
 
     public Personne(String nom, String prenom, String telephone, String email_adresse) {
         this.nom = nom;
