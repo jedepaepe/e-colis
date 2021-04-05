@@ -2,7 +2,9 @@ package com.company;
 
 public class Produit {
     private String description;
-    private double poids_kg, stock_produit;
+    private double poids_kg, stock_produit; // camelCase
+    // manque la liste des dons
+    // manque la liste des livraisons
 
     public Produit(String description, double poids_kg, double stock_produit) {
         this.description = description;
